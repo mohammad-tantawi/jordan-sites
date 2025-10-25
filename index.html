@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="ar">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>المواقع الأثرية في الأردن</title>
+  <meta name="description" content="مرجع مبسط للمواقع الأثرية الشهيرة في الأردن: البتراء، جرش، مادبا، أم قيس، وقلعة عجلون." />
+  <style>
+    :root{--accent:#0b74de;--bg:#f6f7fb;--card:#ffffff;--muted:#666}
+    *{box-sizing:border-box}
+    body{font-family: "Segoe UI", Tahoma, Arial, sans-serif;direction:rtl;margin:0;background:var(--bg);color:#222}
+    header{background:linear-gradient(90deg,var(--accent),#0a62b8);color:#fff;padding:30px 20px;text-align:center}
+    header h1{margin:0;font-size:26px}
+    nav{display:flex;justify-content:center;gap:12px;flex-wrap:wrap;margin-top:10px}
+    nav a{color:white;text-decoration:none;padding:8px 12px;border-radius:6px;background:rgba(255,255,255,0.08)}
+    .container{max-width:1100px;margin:28px auto;padding:0 16px}
+    .intro{display:flex;gap:20px;align-items:center;flex-wrap:wrap}
+    .intro .card{flex:1;min-width:260px;padding:18px;background:var(--card);border-radius:10px;box-shadow:0 6px 18px rgba(10,20,40,0.06)}
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:18px;margin-top:20px}
+    .site{background:var(--card);padding:14px;border-radius:10px;box-shadow:0 6px 18px rgba(10,20,40,0.06)}
+    .site img{width:100%;height:180px;object-fit:cover;border-radius:8px}
+    .site h3{margin:12px 0 6px}
+    .site p{color:var(--muted);line-height:1.45;font-size:14px}
+    .btn{display:inline-block;padding:9px 14px;background:var(--accent);color:#fff;text-decoration:none;border-radius:8px;margin-top:10px}
+    footer{margin:30px 0;text-align:center;color:var(--muted);font-size:14px}
+    .sources{font-size:13px;color:#444;margin-top:12px}
+    @media (max-width:600px){
+      header h1{font-size:20px}
+      .intro{flex-direction:column}
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>المواقع الأثرية في الأردن</h1>
+    <nav aria-label="قائمة الموقع">
+      <a href="#petra">البتراء</a>
+      <a href="#jerash">جرش</a>
+      <a href="#madaba">مادبا</a>
+      <a href="#umm-qais">أم قيس</a>
+      <a href="#ajloun">عجلون</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="intro">
+      <div class="card">
+        <h2>مرحبًا — دليل مبسّط</h2>
+        <p>هذا الموقع يعرّف بأبرز المواقع الأثرية في الأردن، مع وصف موجز وصور. يمكنك تعديل المحتوى بسهولة أو إضافة صفحات فرعية لكل موقع.</p>
+        <div class="sources">
+          مصادر للبحث والتوثيق متاحة في أسفل الصفحة.
+        </div>
+      </div>
+
+      <div class="card" style="max-width:320px">
+        <h3>نصائح سريعة للزوار</h3>
+        <ul>
+          <li>ارتدي أحذية مريحة للمشي على التضاريس الحجرية.</li>
+          <li>احترم قواعد المواقع الأثرية ولا تلمس النقوش الحساسة.</li>
+          <li>احمل ماءً وواقٍ من الشمس خاصة في الصيف.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="sites" class="grid" aria-label="قائمة المواقع">
+      <article id="petra" class="site">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Al_Khazneh_Petra_Jordan_HDR.jpg/1200px-Al_Khazneh_Petra_Jordan_HDR.jpg" alt="البتراء - الخزنة">
+        <h3>البتراء (Petra)</h3>
+        <p>مدينة نبطيّة محفورة في الصخر تعرف بـ "المدينة الوردية"، من أشهر المواقع الأثرية بالعالم ومصنفة ضمن التراث العالمي لليونسكو.</p>
+      </article>
+      <article id="jerash" class="site">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Jerash_Colonnaded_Street_img_3063.jpg/1200px-Jerash_Colonnaded_Street_img_3063.jpg" alt="جرش">
+        <h3>جرش (Jerash)</h3>
+        <p>من أكبر المدن الرومانية المحفوظة بالعالم، تشتهر بالساحة البيضاوية والمسارح والأعمدة الرومانية الرائعة.</p>
+      </article>
+      <article id="madaba" class="site">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Madaba_Mosaic_Map_St_George_Church_2016.jpg/1200px-Madaba_Mosaic_Map_St_George_Church_2016.jpg" alt="مادبا">
+        <h3>مادبا (Madaba)</h3>
+        <p>مدينة الموزاييك، تشتهر بخريطة مادبا في كنيسة القديس جورج التي تُظهر الأرض المقدسة.</p>
+      </article>
+      <article id="umm-qais" class="site">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Umm_Qais_Ruins.jpg/1200px-Umm_Qais_Ruins.jpg" alt="أم قيس">
+        <h3>أم قيس (Umm Qais)</h3>
+        <p>مدينة أثرية رومانية وبيزنطية تطل على غور الأردن وبحيرة طبريا.</p>
+      </article>
+      <article id="ajloun" class="site">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Ajlun_Castle_Jordan_2008.jpg/1200px-Ajlun_Castle_Jordan_2008.jpg" alt="عجلون">
+        <h3>قلعة عجلون (Ajloun Castle)</h3>
+        <p>قلعة أيوبيّة بنيت بالقرن الثاني عشر للدفاع ضد الصليبيين وتطل على مناظر طبيعية جميلة.</p>
+      </article>
+    </section>
+
+    <footer>
+      © <span id="year"></span> — موقع تعليمي عن المواقع الأثرية في الأردن.
+    </footer>
+  </main>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
